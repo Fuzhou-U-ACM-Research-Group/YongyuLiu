@@ -3,5 +3,5 @@
 ##二、使用方法
   BRB-r模型的建立主要分为四个步骤：
 - step1:从传感器中获取到观测数据$(x_1^*,\ldots,x_i^*,\ldots,x_M^*)$;
-- step2:计算参数可靠性;
-- 
+- step2:通过公差范围（tolerance range）计算参数可靠性;
+- step3:
