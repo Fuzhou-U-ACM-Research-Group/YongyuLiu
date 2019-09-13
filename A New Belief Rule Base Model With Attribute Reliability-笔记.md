@@ -8,6 +8,6 @@
 - step4:通过考虑参数权重（attribute weight）和参数可靠性（attribute reliability），计算第k条规则的匹配度；
 - step5:计算规则激活权重；
 - step6:使用ER算法聚合激活的规则，得到最终的模型；
-### 1、公差范围的计算
-  
+### 1、参数可靠性
+    
 
