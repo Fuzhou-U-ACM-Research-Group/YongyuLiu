@@ -5,4 +5,6 @@
 - step1:从传感器中获取到观测数据$(x_1^*,\ldots,x_i^*,\ldots,x_M^*)$;
 - step2:通过公差范围（tolerance range）计算参数可靠性;
 - step3:计算参数匹配度；
-- step4:通过考虑参数权重（attribute weight）和参数可靠性（attribute reliability），计算第k条规则的
+- step4:通过考虑参数权重（attribute weight）和参数可靠性（attribute reliability），计算第k条规则的匹配度；
+- step5:计算规则激活权重；
+- step6:使用ER算法聚合激活的
