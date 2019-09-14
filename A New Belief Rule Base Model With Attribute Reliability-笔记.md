@@ -21,6 +21,6 @@ $$\alpha_i^j = \begin{cases} \frac{x_{i(k+1)} - x_i^*}{x_{i(k+1)} - x_{ik}},&\ j
 综合考虑属性权重和属性可信度，计算
 $$\begin{aligned}
 C_i = \frac{\bar{\delta_i}}{1+\bar{\delta_i}-r_i} \\
-\bar{\delta_i} = frac{}{}
+\bar{\delta_i} = \frac{\delta_i}{max_i=1,\ldots,T_k{}
 \end{aligned}
 $$
