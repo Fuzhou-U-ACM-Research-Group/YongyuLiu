@@ -20,7 +20,8 @@ $$\bar{x_i}-\psi\sigma_i<x_i<\bar{x_i}+\psi\sigma_i$$
 $$\alpha_i^j=\{ 
 {{x_{i(k+1)}-x_i^*\over {x_{i(k+1)}-x_{ik}}},j=k,x_{ik}\le x_i^* \le x_{i(k+1)} \atop {{x_i^*-x_{ik}\over{x_{i(k+1)}-x_{ik}}},j=k+1\atop{0,j=1,2,\ldots,|x_i|, j\not=k,k+1}}}$$
 $$
-\alpha_i^j = \{\begin{marchingDegree}
+\alpha_i^j = \begin{marchingDegree}
 
 \end{marchingDegree}
 $$
+$$f(n) = \begin{cases} \frac{n}{2}, & \text{if } n\text{ is even} \\ 3n+1, & \text{if } n\text{ is odd} \end{cases}$$
