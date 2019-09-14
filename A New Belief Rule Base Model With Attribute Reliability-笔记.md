@@ -14,5 +14,5 @@ $$\bar{x_i}-\psi\sigma_i<x_i<\bar{x_i}+\psi\sigma_i$$
 其中，$\psi$是根据专家经验来指定的数值，用来调节公差范围的大小。当属性值$x^*\leq\bar{x_i}-\psi\sigma_i$或$x^*\geq\bar{x_i}+\psi\sigma_i$时，判断这个属性值是不可信的。
 &emsp;&emsp;属性可信度计算流程如下，
 ![屏幕快照 20190914 下午1.50.32.png](0)
-&emsp
+&emsp;&emsp;当属性值不可信时，$y_i$的
 
