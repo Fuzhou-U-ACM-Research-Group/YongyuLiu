@@ -24,4 +24,4 @@ $$\begin{aligned}
 &\bar{\delta_i} = \frac{\delta_i}{max_i=1,\ldots,T_k\{\delta_i\}}
 \end{aligned}
 $$
-&emsp;&emsp;其中，$r_i$和$\delta_i$分别是第i个属性的可信度和权重。当属性i是完全可信的，则$C_i=1$，否则，$C_i=0$。
+&emsp;&emsp;其中，$r_i$和$\delta_i$分别是第i个属性的可信度和权重。当属性i是完全可信的，则$C_i=1$，否则，$C_i=0$
