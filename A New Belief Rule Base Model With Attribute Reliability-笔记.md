@@ -15,9 +15,9 @@ $$\bar{x_i}-\psi\sigma_i<x_i<\bar{x_i}+\psi\sigma_i$$
 &emsp;&emsp;属性可信度计算流程如下，
 ```flow
 st=>start:获取属性值
-e=>end:end
 op1=>operation:1
+e=>end:end
 
-st->op1->e
+st-op1-e
 ```
 
