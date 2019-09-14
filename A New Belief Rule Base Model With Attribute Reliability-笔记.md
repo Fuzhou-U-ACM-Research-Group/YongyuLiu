@@ -51,6 +51,7 @@ $$w_k = \frac{\theta_k\alpha_k}{\sum_{l=1}^{L}\theta_l\alpha_l},k=1,\ldots,L$$
 CMA-ES是Covariance Matrix Adaptation Evolutionary Strategies的缩写，中文名称是协方差矩阵自适应进化策略，主要用于解决连续优化问题，尤其在病态条件下的连续优化问题。进化策略算法主要作为求解参数优化问题的方法，模仿生物进化原理，假设不论基因发生何种变化，产生的结果（性状）总遵循这零均值，某一方差的高斯分布。注意这里进化策略和遗传算法不同，但是都是进化算法（EAs）的重要变种。[详细介绍](https://www.cnblogs.com/tsingke/p/6258967.html)
 
 ## 4、BRB-r模型总体流程
-
+![屏幕快照 20190914 下午10.58.13.png](1)
+- step1: 将获取到的数据分为
 
 
