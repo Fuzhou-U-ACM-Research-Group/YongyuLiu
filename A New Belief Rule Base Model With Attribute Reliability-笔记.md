@@ -12,7 +12,7 @@
 $$
 \begin{aligned}
 R_k:\text{ if } x_1 \text{ is } A_1^k \wedge x_2 \text{ is } A_2^k &\wedge \cdots \wedge x_{M_k} \text{ is } A_{M_k}, \\
-&\text{Then } y \text{ is } 
+&\text{Then } y \text{ is } \{(D_1,\beta_{1,})\}
 \end{aligned}
 $$
 
