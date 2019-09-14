@@ -19,7 +19,7 @@ $$
 \end{aligned}
 $$
 
-### 2.1、参数可信度
+### 2.1、参数可靠性
 &emsp;&emsp;假设前件的参数个数为M个，第i个属性的平均值为$\bar{x_i}$,第i个属性的标准差为$\sigma_i$，则该属性的公差范围为
 $$\bar{x_i}-\psi\sigma_i<x_i<\bar{x_i}+\psi\sigma_i$$
 其中，$\psi$是根据专家经验来指定的数值，用来调节公差范围的大小。当属性值$x^*\leq\bar{x_i}-\psi\sigma_i$或$x^*\geq\bar{x_i}+\psi\sigma_i$时，判断这个属性值是不可信的。
@@ -29,13 +29,13 @@ $$\bar{x_i}-\psi\sigma_i<x_i<\bar{x_i}+\psi\sigma_i$$
 ### 2.2、匹配度
 &emsp;&emsp;采用BRB模型的方法计算前件属性的匹配度,
 $$\alpha_i^j = \begin{cases} \frac{x_{i(k+1)} - x_i^*}{x_{i(k+1)} - x_{ik}},& j=k,\text{if }x_{ik} \leq x_i^* \leq x_{i(k+1)} \\ 1 - \frac{x_{i(k+1)} - x_i^*}{x_{i(k+1)} - x_{ik}}, & j=k+1 \\0,& j=1,2,\ldots,|x_i^*|,j \not =k, k+1 \end{cases}$$
-&emsp;&emsp;综合考虑属性权重和属性可信度，计算
+&emsp;&emsp;综合考虑属性权重和属性可靠性，计算
 $$\begin{aligned}
 &C_i = \frac{\bar{\delta_i}}{1+\bar{\delta_i}-r_i} \\
 &\bar{\delta_i} = \frac{\delta_i}{max_i=1,\ldots,T_k\{\delta_i\}}
 \end{aligned}
 $$
-&emsp;&emsp;其中，$r_i$和$\delta_i$分别是第i个属性的可信度和权重，$\bar{\delta_i}$是第i个属性的相对权重。当属性i是完全可信的，即$r_i = 1$时，则$C_i=1$，否则，$C_i < 1$。
+&emsp;&emsp;其中，$r_i$和$\delta_i$分别是第i个属性的可靠性和权重，$\bar{\delta_i}$是第i个属性的相对权重。当属性i是完全可信的，即$r_i = 1$时，则$C_i=1$，否则，$C_i < 1$。
 &emsp;&emsp;第i条规则的匹配度为
 $$\alpha_k = \prod_{i=1}^{T_k}(\alpha_k^i)^{C_i}$$
 &emsp;&emsp;其中，$T_k$为规则个数。
@@ -56,6 +56,6 @@ CMA-ES是Covariance Matrix Adaptation Evolutionary Strategies的缩写，中文�
 - step2: 计算属性可信度
 - step3: 使用P-CMA-ES对BEB-r模型进行训练。注意，参数可信度（attribute reliability）表示一个无法优化系统的固有属性
 - step4: 使用测试集对优化后的BRB-r模型进行测试，并计算总体可靠性
-- step4.1:
+- step4.1: 
 
 
