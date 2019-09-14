@@ -17,11 +17,8 @@ $$\bar{x_i}-\psi\sigma_i<x_i<\bar{x_i}+\psi\sigma_i$$
 &emsp;&emsp;当第i个属性值$x_{ij}$不在公差范围内时，$y_{ij}=0$，反之，$y_{ij}=1$。对第i个属性的所有取值计算对应的$y_{ij}$，然后可以知道可信的属性值个数在全部属性值中占的比重$r_i$，这个$r_i$便是第i个参数的属性可信度。
 ### 2.2、匹配度
 &emsp;&emsp;采用BRB模型的方法计算前件属性的匹配度,
-$$\alpha_i^j=\{ 
-{{x_{i(k+1)}-x_i^*\over {x_{i(k+1)}-x_{ik}}},j=k,x_{ik}\le x_i^* \le x_{i(k+1)} \atop {{x_i^*-x_{ik}\over{x_{i(k+1)}-x_{ik}}},j=k+1\atop{0,j=1,2,\ldots,|x_i|, j\not=k,k+1}}}$$
 $$
-\alpha_i^j = \begin{marchingDegree} \frac{x_{i(k+1)} - x_i^*}{x_{i(k+1)}}
+\alpha_i^j = \begin{marchingDegree} \frac{x_{i(k+1)} - x_i^*}{x_{i(k+1)} - x_{ik}}
 
-\end{marchingDegree}
 $$
 $$f(n) = \begin{cases} \frac{n}{2}, & \text{if } n\text{ is even} \\ 3n+1, & \text{if } n\text{ is odd} \end{cases}$$
