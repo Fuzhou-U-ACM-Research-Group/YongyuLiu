@@ -24,7 +24,7 @@ $$
 $$\bar{x_i}-\psi\sigma_i<x_i<\bar{x_i}+\psi\sigma_i$$
 其中，$\psi$是根据专家经验来指定的数值，用来调节公差范围的大小。当属性值$x^*\leq\bar{x_i}-\psi\sigma_i$或$x^*\geq\bar{x_i}+\psi\sigma_i$时，判断这个属性值是不可信的。
 &emsp;&emsp;属性可信度计算流程如下，
-![屏幕快照 20190914 下午1.50.32.png](0)
+
 &emsp;&emsp;当第i个属性值$x_{ij}$不在公差范围内时，$y_{ij}=0$，反之，$y_{ij}=1$。对第i个属性的所有取值计算对应的$y_{ij}$，然后可以知道可信的属性值个数在全部属性值中占的比重$r_i$，这个$r_i$便是第i个参数的属性可信度。
 ### 2.2、匹配度
 &emsp;&emsp;采用BRB模型的方法计算前件属性的匹配度,
@@ -45,4 +45,5 @@ $$w_k = \frac{\theta_k\alpha_k}{\sum_{l=1}^{L}\theta_l\alpha_l},k=1,\ldots,L$$
 &emsp;&emsp;其中，$\theta_k$是规则的权重。
 &emsp;&emsp;获取到规则的激活权重后，便可以使用ER算法对规则进行组合，并获取到最终的BRB-r模型的输出结果。
 ## 3、优化BRB-r模型
-&emsp;&emsp;论文最后对BRB-r模型进行参数训练来优化模型，采用投影协方差矩阵自适应进化策略（the projection covariance matrix adaption evolution strategy, P-CMA-ES）
+&emsp;&emsp;论文最后对BRB-r模型进行参数训练来优化模型，采用投影协方差矩阵自适应进化策略（the projection covariance matrix adaption evolution strategy, P-CMA-ES）。
+
