@@ -31,4 +31,5 @@ $$\alpha_k = \prod_{i=1}^{T_k}(\alpha_k^i)^{C_i}$$
 ### 2.3、规则激活和ER合成
 &emsp;&emsp;经过上面的步骤后，得到了规则匹配度$\alpha_k$，下面直接使用BRB中的激活权重计算方法，计算BRB-r中每条规则的激活权重,
 $$w_k = \frac{\theta_k\alpha_k}{\sum_{l=1}^{L}\theta_l\alpha_l},k=1,\ldots,L$$
-
+&emsp;&emsp;其中，$\theta_k$是规则的权重。
+&emsp;&emsp;获取到规则的权重后
