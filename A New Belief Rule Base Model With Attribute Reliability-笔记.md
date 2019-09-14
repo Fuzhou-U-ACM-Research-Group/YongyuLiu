@@ -24,4 +24,4 @@ C_i = \frac{\bar{\delta_i}}{1+\bar{\delta_i}-r_i} \\
 \bar{\delta_i} = \frac{\delta_i}{max_i=1,\ldots,T_k\{\delta_i\}}
 \end{aligned}
 $$
-&emsp;&emsp;其中$r_i$$\$
+&emsp;&emsp;其中，$r_i$和$\delta_i$分别是第i个属性的可信度和权重
