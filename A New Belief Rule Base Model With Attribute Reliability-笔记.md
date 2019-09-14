@@ -8,6 +8,8 @@
 - step4:通过考虑参数权重（attribute weight）和参数可靠性（attribute reliability），计算第k条规则的匹配度；
 - step5:计算规则激活权重；
 - step6:使用ER算法聚合激活的规则，得到最终的模型；
+&emsp;&emsp;BRB-r定义
+
 ### 2.1、参数可信度
 &emsp;&emsp;假设前件的参数个数为M个，第i个属性的平均值为$\bar{x_i}$,第i个属性的标准差为$\sigma_i$，则该属性的公差范围为
 $$\bar{x_i}-\psi\sigma_i<x_i<\bar{x_i}+\psi\sigma_i$$
@@ -33,5 +35,5 @@ $$\alpha_k = \prod_{i=1}^{T_k}(\alpha_k^i)^{C_i}$$
 $$w_k = \frac{\theta_k\alpha_k}{\sum_{l=1}^{L}\theta_l\alpha_l},k=1,\ldots,L$$
 &emsp;&emsp;其中，$\theta_k$是规则的权重。
 &emsp;&emsp;获取到规则的激活权重后，便可以使用ER算法对规则进行组合，并获取到最终的BRB-r模型的输出结果。
-## 3、
+## 3、BRB-r
 
