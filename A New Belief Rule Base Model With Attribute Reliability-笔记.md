@@ -11,5 +11,6 @@
 ### 1、参数可靠性
 &emsp;&emsp;假设前件的参数个数为M个，第i个属性的平均值为$\bar{x_i}$,第i个属性的标准差为$\sigma_i$，则该属性的公差范围为
 $$\bar{x_i}-\psi\sigma_i<x_i<\bar{x_i}+\psi\sigma_i$$
-其中，$\psi$是根据专家经验来指定的数值，用来调节公差范围的大小。当属性值$x^*\leq\bar{x_i}-\psi\sigma_i$或$x^*\geq\bar{x_i}+\psi\sigma_i$时，判断这个属性值是不可信的
+其中，$\psi$是根据专家经验来指定的数值，用来调节公差范围的大小。当属性值$x^*\leq\bar{x_i}-\psi\sigma_i$或$x^*\geq\bar{x_i}+\psi\sigma_i$时，判断这个属性值是不可信的。
+\emsp;\emsp;属性可信度计算
 
