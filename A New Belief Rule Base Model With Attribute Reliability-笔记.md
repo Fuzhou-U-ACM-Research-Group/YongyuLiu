@@ -18,7 +18,7 @@ $$\bar{x_i}-\psi\sigma_i<x_i<\bar{x_i}+\psi\sigma_i$$
 ### 2.2、匹配度
 &emsp;&emsp;采用BRB模型的方法计算前件属性的匹配度,
 $$
-\alpha_i^j = \begin{marchingDegree} \frac{x_{i(k+1)} - x_i^*}{x_{i(k+1)} - x_{ik}}
+\alpha_i^j = \begin{marchingDegree} \frac{x_{i(k+1)} - x_i^*}{x_{i(k+1)} - x_{ik}},j=k,& \text{if }x_{ik} \leq 
 
 $$
 $$f(n) = \begin{cases} \frac{n}{2}, & \text{if } n\text{ is even} \\ 3n+1, & \text{if } n\text{ is odd} \end{cases}$$
