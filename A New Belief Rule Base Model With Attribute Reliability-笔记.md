@@ -45,5 +45,5 @@ $$w_k = \frac{\theta_k\alpha_k}{\sum_{l=1}^{L}\theta_l\alpha_l},k=1,\ldots,L$$
 &emsp;&emsp;其中，$\theta_k$是规则的权重。
 &emsp;&emsp;获取到规则的激活权重后，便可以使用ER算法对规则进行组合，并获取到最终的BRB-r模型的输出结果。
 ## 3、优化BRB-r模型
-&emsp;&emsp;论文最后对BRB-r模型进行参数训练来优化模型，
+&emsp;&emsp;论文最后对BRB-r模型进行参数训练来优化模型
 
