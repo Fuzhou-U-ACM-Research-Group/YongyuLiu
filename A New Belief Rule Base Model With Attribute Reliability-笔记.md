@@ -26,4 +26,5 @@ $$\begin{aligned}
 $$
 &emsp;&emsp;其中，$r_i$和$\delta_i$分别是第i个属性的可信度和权重。当属性i是完全可信的，即$r_i = 1$时，则$C_i=1$，否则，$C_i < 1$。
 &emsp;&emsp;第i条规则的匹配度为
-$$\alpha_k = \prod_{i=1}^{T_k}(\alpha)$$
+$$\alpha_k = \prod_{i=1}^{T_k}(\alpha_k^i)^{C_i}$$
+ems
