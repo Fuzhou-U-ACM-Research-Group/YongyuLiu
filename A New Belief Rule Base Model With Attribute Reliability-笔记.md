@@ -14,7 +14,8 @@ $$
 \begin{aligned}
 &R_k:\text{ if } x_1 \text{ is } A_1^k \wedge x_2 \text{ is } A_2^k \wedge \cdots \wedge x_{M_k} \text{ is } A_{M_k}, \\
 &\text{Then } y \text{ is } \{(D_1,\beta_{1,k}),(D_2,\beta_{2,k}),\cdots,(D_N,\beta_{N,k})\} \big( \sum_{n=1}^{N}\beta_{n,k}\le1\big) \\
-& \text{With rule weight } \theta_k \text{ and attribute weight } \delta_1, \delta_2,\ldots,\delta_{M_k}
+& \text{With rule weight } \theta_k \text{ and attribute weight } \delta_1, \delta_2,\ldots,\delta_{M_k} \\
+& \text{and attribute reliability } r_1
 \end{aligned}
 $$
 
