@@ -18,4 +18,5 @@ $$\bar{x_i}-\psi\sigma_i<x_i<\bar{x_i}+\psi\sigma_i$$
 ### 2.2、匹配度
 &emsp;&emsp;采用BRB模型的方法计算前件属性的匹配度,
 $$\alpha_i^j = \begin{cases} \frac{x_{i(k+1)} - x_i^*}{x_{i(k+1)} - x_{ik}},&\ j=k,\text{if }x_{ik} \leq x_i^* \leq x_{i(k+1)} \\ 1 - \frac{x_{i(k+1)} - x_i^*}{x_{i(k+1)} - x_{ik}}, & j=k+1 \\0,& j=1,2,\ldots,|x_i^*|,j \not =k, k+1 \end{cases}$$
-综合考虑属性权重和属性可信度
+综合考虑属性权重和属性可信度，计算
+$$C_i=\bar(\delta_i)$$
