@@ -11,8 +11,8 @@
 &emsp;&emsp;BRB-r定义如下：
 $$
 \begin{aligned}
-R_k:\text{ if } x_1 \text{ is } A_1^k \wedge x_2 \text{ is } A_2^k &\wedge \cdots \wedge x_{M_k} \text{ is } A_{M_k}, \\
-&\text{Then } y \text{ is } \{(D_1,\beta_{1,k}),(D_2,\beta_{2,k}),\cdots,(D_N,\beta_{N,k})\}
+&R_k:\text{ if } x_1 \text{ is } A_1^k \wedge x_2 \text{ is } A_2^k \wedge \cdots \wedge x_{M_k} \text{ is } A_{M_k}, \\
+&\text{Then } y \text{ is } \{(D_1,\beta_{1,k}),(D_2,\beta_{2,k}),\cdots,(D_N,\beta_{N,k})\} \big( \sum_{n=1}^{N}\beta
 \end{aligned}
 $$
 
