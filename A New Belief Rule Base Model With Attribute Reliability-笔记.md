@@ -8,11 +8,12 @@
 - step4:通过考虑参数权重（attribute weight）和参数可靠性（attribute reliability），计算第k条规则的匹配度；
 - step5:计算规则激活权重；
 - step6:使用ER算法聚合激活的规则，得到最终的模型；
+
 &emsp;&emsp;BRB-r定义如下：
 $$
 \begin{aligned}
 &R_k:\text{ if } x_1 \text{ is } A_1^k \wedge x_2 \text{ is } A_2^k \wedge \cdots \wedge x_{M_k} \text{ is } A_{M_k}, \\
-&\text{Then } y \text{ is } \{(D_1,\beta_{1,k}),(D_2,\beta_{2,k}),\cdots,(D_N,\beta_{N,k})\} \big( \sum_{n=1}^{N}\beta
+&\text{Then } y \text{ is } \{(D_1,\beta_{1,k}),(D_2,\beta_{2,k}),\cdots,(D_N,\beta_{N,k})\} \big( \sum_{n=1}^{N}\beta_{n,k}\le1\big)
 \end{aligned}
 $$
 
