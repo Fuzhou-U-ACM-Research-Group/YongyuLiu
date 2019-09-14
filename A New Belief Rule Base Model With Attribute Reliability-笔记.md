@@ -21,4 +21,4 @@ $$
 \alpha_i^j = \begin{marchingDegree} \frac{x_{i(k+1)} - x_i^*}{x_{i(k+1)} - x_{ik}},j=k,& \text{if }x_{ik} \leq x_i^* \leq x_{i(k+1)} \\ 
 
 $$
-$$f(n) = \begin{cases} \frac{n}{2}, & \text{if } n\text{ is even} \\ 3n+1, & \text{if } n\text{ is odd} \end{cases}$$
+$$f(n) = \begin{case} \frac{x_{i(k+1)} - x_i^*}{x_{i(k+1)} - x_{ik}}, & \text{if } n\text{ is even} \\ 3n+1, & \text{if } n\text{ is odd} \end{case}$$
