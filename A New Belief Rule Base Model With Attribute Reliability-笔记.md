@@ -28,3 +28,4 @@ $$
 &emsp;&emsp;第i条规则的匹配度为
 $$\alpha_k = \prod_{i=1}^{T_k}(\alpha_k^i)^{C_i}$$
 &emsp;&emsp;其中，$T_k$为规则个数。
+### 2.3、规则激活
