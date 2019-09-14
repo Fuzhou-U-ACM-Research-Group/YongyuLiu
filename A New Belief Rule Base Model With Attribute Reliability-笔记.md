@@ -46,7 +46,10 @@ $$w_k = \frac{\theta_k\alpha_k}{\sum_{l=1}^{L}\theta_l\alpha_l},k=1,\ldots,L$$
 &emsp;&emsp;获取到规则的激活权重后，便可以使用ER算法对规则进行组合，并获取到最终的BRB-r模型的输出结果。
 ## 3、优化BRB-r模型
 &emsp;&emsp;论文最后对BRB-r模型进行参数训练来优化模型，采用投影协方差矩阵自适应进化策略（the projection covariance matrix adaption evolution strategy, P-CMA-ES）进行优化。
+
 > 协方差矩阵自适应算法
+CMA-ES是Covariance Matrix Adaptation Evolutionary Strategies的缩写，中文名称是协方差矩阵自适应进化策略，主要用于解决连续优化问题，尤其在病态条件下的连续优化问题。进化策略算法主要作为求解参数优化问题的方法，模仿生物进化原理，假设不论基因发生何种变化，产生的结果（性状）总遵循这零均值，某一方差的高斯分布。注意这里进化策略和遗传算法不同，但是都是进化算法（EAs）的重要变种。
+
 
 
 
