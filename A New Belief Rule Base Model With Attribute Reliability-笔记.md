@@ -13,10 +13,11 @@
 $$\bar{x_i}-\psi\sigma_i<x_i<\bar{x_i}+\psi\sigma_i$$
 其中，$\psi$是根据专家经验来指定的数值，用来调节公差范围的大小。当属性值$x^*\leq\bar{x_i}-\psi\sigma_i$或$x^*\geq\bar{x_i}+\psi\sigma_i$时，判断这个属性值是不可信的。
 &emsp;&emsp;属性可信度计算流程如下，
+```flow
 st=>start:获取属性值
 e=>end:end
 op1=>operation:1
-```mermaid
+
 st->op1->e
 ```
 
