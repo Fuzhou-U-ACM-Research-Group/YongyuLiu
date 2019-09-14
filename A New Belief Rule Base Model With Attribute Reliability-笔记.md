@@ -35,7 +35,7 @@ $$\begin{aligned}
 &\bar{\delta_i} = \frac{\delta_i}{max_i=1,\ldots,T_k\{\delta_i\}}
 \end{aligned}
 $$
-&emsp;&emsp;其中，$r_i$和$\delta_i$分别是第i个属性的可信度和权重。当属性i是完全可信的，即$r_i = 1$时，则$C_i=1$，否则，$C_i < 1$。
+&emsp;&emsp;其中，$r_i$和$\delta_i$分别是第i个属性的可信度和权重，$\bar{\delta_i}$是第i个属性的相对权重。当属性i是完全可信的，即$r_i = 1$时，则$C_i=1$，否则，$C_i < 1$。
 &emsp;&emsp;第i条规则的匹配度为
 $$\alpha_k = \prod_{i=1}^{T_k}(\alpha_k^i)^{C_i}$$
 &emsp;&emsp;其中，$T_k$为规则个数。
