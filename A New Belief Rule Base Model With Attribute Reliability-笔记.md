@@ -55,6 +55,6 @@ CMA-ES是Covariance Matrix Adaptation Evolutionary Strategies的缩写，中文�
 - step1: 将获取到的数据分为训练集和测试集
 - step2: 计算属性可信度
 - step3: 使用P-CMA-ES对BEB-r模型进行训练。注意，参数可信度（attribute reliability）表示一个无法优化系统的固有属性
-- step4: 使用测试集对优化后的BRB-r模型进行
+- step4: 使用测试集对优化后的BRB-r模型进行测试，并计算总体可靠性
 
 
