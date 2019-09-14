@@ -10,7 +10,8 @@
 - step6:使用ER算法聚合激活的规则，得到最终的模型；
 &emsp;&emsp;BRB-r定义如下：
 $$
-R_k:\text{ if } x_1 \text{ is } A_1^k \wedge x_2 \text{ is } A_2^k \wedge \
+R_k:\text{ if } x_1 \text{ is } A_1^k \wedge x_2 \text{ is } A_2^k \wedge \cdots \wedge x_{M_k} \text{ is } A_{M_k},
+
 $$
 
 ### 2.1、参数可信度
