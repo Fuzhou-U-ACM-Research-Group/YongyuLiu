@@ -67,6 +67,7 @@ $$
 m(\theta) = 
 \begin{cases}
 \alpha p(\theta)& \theta \subset\Theta, \theta \not = \Theta \\
-\alpha p(\theta) + (1- \alpha)&\theta = \Theta & with 0\leq \alpha \leq \
+\alpha p(\theta) + (1- \alpha)&\theta = \Theta & with 0\leq \alpha \leq 1 \\
+0 & \theta = \empty
 \end{cases}
 $$
