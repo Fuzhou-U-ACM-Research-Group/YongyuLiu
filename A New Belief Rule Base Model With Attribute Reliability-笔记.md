@@ -66,6 +66,7 @@ CMA-ES是Covariance Matrix Adaptation Evolutionary Strategies的缩写，中文�
 $$
 m(\theta) = 
 \begin{cases}
-\alpha p(\theta)& \theta
+\alpha p(\theta)& \theta \subset\Theta, \theta \not = \Theta \\
+\alphap(\theta)
 \end{cases}
 $$
