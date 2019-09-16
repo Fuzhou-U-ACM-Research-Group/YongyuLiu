@@ -62,4 +62,4 @@ CMA-ES是Covariance Matrix Adaptation Evolutionary Strategies的缩写，中文�
 
 ### 5、定义
 > yang 2013 Evidential reasoning rule for evide
-definition 1(shafer's discounting).
+**definition 1**(shafer's discounting). Suppose $p(\theta)$ si th
