@@ -61,4 +61,5 @@ CMA-ES是Covariance Matrix Adaptation Evolutionary Strategies的缩写，中文�
 - step4.3: 输出BRB-r的评估结果$output$
 
 ### 5、定义
-> yang 
+> yang 2013 Evidential reasoning rule for evide
+definition 1(shafer's discounting).
