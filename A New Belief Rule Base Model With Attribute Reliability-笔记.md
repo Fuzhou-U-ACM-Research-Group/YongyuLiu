@@ -62,4 +62,4 @@ CMA-ES是Covariance Matrix Adaptation Evolutionary Strategies的缩写，中文�
 
 ### 5、定义
 > yang 2013 Evidential reasoning rule for evide
-**definition 1**(shafer's discounting). Suppose $p(\theta)$ is the degree of belief to which a piece of evidence points to a proposition $\theta$. Let $\alpha$ be a factor tha
+**definition 1**(shafer's discounting). Suppose $p(\theta)$ is the degree of belief to which a piece of evidence points to a proposition $\theta$. Let $\alpha$ be a factor that is used to disscount $p(\theta)$, where $\alpha$ is used. Then, Shafer's discounting method is defined 
