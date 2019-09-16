@@ -67,6 +67,6 @@ $$
 m(\theta) = 
 \begin{cases}
 \alpha p(\theta)& \theta \subset\Theta, \theta \not = \Theta \\
-\alphap(\theta)
+\alpha p(\theta) + (1- \alpha)&\theta = \Theta & with 0\leq \alpha \leq \
 \end{cases}
 $$
