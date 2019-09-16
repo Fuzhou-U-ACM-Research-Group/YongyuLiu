@@ -65,6 +65,7 @@ CMA-ES是Covariance Matrix Adaptation Evolutionary Strategies的缩写，中文�
 **definition 1**(shafer's discounting). Suppose $p(\theta)$ is the degree of belief to which a piece of evidence points to a proposition $\theta$. Let $\alpha$ be a factor that is used to disscount $p(\theta)$, where $\alpha$ is used. Then, Shafer's discounting method is defined to generate $bpa$ for the evidence as follows
 $$
 m(\theta) = 
-\begin(cases)
-\end(cases)
+\begin{cases}
+\alpha p(\theta)& \theta
+\end{cases}
 $$
