@@ -60,15 +60,3 @@ CMA-ES是Covariance Matrix Adaptation Evolutionary Strategies的缩写，中文�
 - step4.2: 使用ER算法进行聚合
 - step4.3: 输出BRB-r的评估结果$output$
 
-### 5、定义
-> yang 2013 Evidential reasoning rule for evide
-
-**definition 1**(shafer's discounting). Suppose $p(\theta)$ is the degree of belief to which a piece of evidence points to a proposition $\theta$. Let $\alpha$ be a factor that is used to disscount $p(\theta)$, where $\alpha$ $(0 \leq \alpha \le 1)$ can be interpreted as ==the reliability or importance of the evidence==, depending upon circumstances in which $\alpha$ is used. Then, Shafer's discounting method is defined to generate $bpa$ for the evidence as follows
-$$
-m(\theta) = 
-\begin{cases}
-\alpha p(\theta)& \theta \subset\Theta, \theta \not = \Theta \\
-\alpha p(\theta) + (1- \alpha)&\theta = \Theta & with 0\leq \alpha \leq 1 \\
-0 & \theta = \emptyset
-\end{cases}
-$$
