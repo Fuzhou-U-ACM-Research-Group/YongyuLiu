@@ -1,0 +1,13 @@
+dbrb_code
+    |-datasets  存放数据集和处理数据的方法
+    |-DBRB
+        |-differential_evolution.py 使用的geatpy包是v2.2.3
+    |-DBRB-opt 和上面的方法一样，在参数训练中没有优化效用，规则直接使用线性组合（在IIBRB实验中，该方法会比优化效用的好）
+    |-EBRB
+    |-EDBRB 论文的第一个点
+    |-experiments
+        |-EDBRB 论文第一个点的实验
+    |-IIBRB 论文第二个点
+    |-miss_data_method  随机缺失数据
+    |-picture   绘制图片的方法
+    |-teachingEvaluation    论文第三个点
